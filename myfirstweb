@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        My Website
+    </title>
+    <style>
+        *table{
+            border-collapse: collapse;
+            border: #333;
+        }
+          .topnav {
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    /* Style the topnav links */
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /* Change color on hover */
+        .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    table, th, td {
+            border: 1px solid rgb(0, 0, 0);
+            border-collapse: collapse;
+
+    </style>
+    <body>
+        <table width="90%">
+            <tr>
+                <td>
+                    
+                    <img src="Florist.co.png" height="350" width="1000">
+                
+                </td>
+                <td>
+                    <img src="X.jpg" width="30%" >
+                    <img src="facebook.jpg" width="30%"  >
+                </td>
+
+            </tr>
+        </table>
+        <div class="topnav">
+            <a href="index.html">HOME</a>
+            <a href="aboutme.html">ABOUT ME</a>
+            <a href="album.html">ALBUM</a>
+        </div>
+        <table width="90%">
+            <tr>
+                <td>
+                Welcome to my first website<br>
+                Hi there! Here I'am!!<br>
+                My Name is Aqil Arsyad.<br>
+                Im 16 years old 
+            </td>
+            <td>
+                Log In :<br>
+                <input type="text" id="username" name="username"><br>
+                <input type="submit" value="SUBMIT"><br>
+                 password :<br>
+                <input type="password" id="pwd" name="pwd"><br> 
+                <input type="submit" value="SUBMIT"><br>
+               
+            </td>
+            </tr>
+
+        </table>
+    </body>
+</head>
+</html>
